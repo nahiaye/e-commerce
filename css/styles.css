@@ -1,0 +1,136 @@
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}
+
+.sale {
+    background-color: #f4eddd;
+    font-size: 1.8rem;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 10.5rem;
+    /* margin: auto auto auto 10.5rem; */
+    /* padding: 22px 60px; */
+}
+
+.discount {
+    background-color: #CC071E;
+    color: #fff;
+    margin: auto auto auto 10.5rem;
+    padding: 5rem 5rem auto;
+}
+
+.styles0 {
+    padding-top: 7.5rem;
+}
+
+.styles1 {
+    line-height: 1.2;
+}
+
+.styles2 {
+    line-height: 1.2;
+}
+
+.styles3 {
+    padding-top: 7.5rem;
+}
+
+.place {
+    font-family: sans-serif;
+    font-size: x-small;
+    padding-bottom: 3rem;
+}
+
+.trends {
+    display: inline-flex;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+.fiftyoff {
+    padding-bottom: 1.5rem;
+}
+
+.model0 {
+    width: 27%;
+    border-radius: 50%;
+    padding-bottom: 1rem;
+}
+
+.model2 {
+    width: 25%;
+    border-radius: 50%;
+    padding-bottom: 1rem;
+}
+
+.model3 {
+    width: 25%;
+    border-radius: 50%;
+    padding-bottom: 0.5rem;
+}
+
+.model4 {
+    width: 55%;
+    border-radius: 50%;
+    padding-bottom: 1rem;
+}
+
+.txt {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.descr {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2;
+    font-weight: 400;
+}
+
+.mag-txt {
+    background: #f4eddd;
+    font-family: "Google Sans Display", Roboto, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.heading {
+    font-size: 40px;
+    line-height: 72px;
+    position: relative;
+    text-align: center;
+    padding-top: 3rem;
+    font-family: "Google Sans Display", Roboto, Arial, sans-serif;
+    font-weight: 800;
+}
+
+.sub-heading {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Google Sans Display", Roboto, Arial, sans-serif;
+}
+
+.last {
+    background-color: rgba(0, 0, 0, 0.1s);
+    font-family: "Google Sans Display", Roboto, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+a:link {
+    color: black;
+}
+
+a.read:hover {
+    color: black;
+}
+
+a.link:hover {
+    color: black;
+}
+
+h2 {
+    line-height: 1.2;
+    font-weight: 700;
+}

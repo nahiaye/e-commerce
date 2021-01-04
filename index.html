@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900|Roboto+Mono:300,400,500,900|Google+Sans:400,500,700,900|Material+Icons|Google+Sans+Display:400,500,700,900|Google+Sans+Text+Beta:400,500,700,400i,500i,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- to make the  navbar sticky/fixed, add fixed-top or sticky-top next to navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark justify-content-between">
+        <a class="navbar-brand" href="#">
+            <img src="images/pexels-scott-webb-430205.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo"> SlackTech
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-5">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">The best</a>
+                </li>
+            </ul>
+
+            <form class="form-inline ml-auto my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <!--<i class="fas fa-search"></i>-->
+            </form>
+        </div>
+
+    </nav>
+
+
+    <form class="form-signin p-4 w-50 ml-auto mr-auto">
+        <h1 class="h3 mb-3 font-weight-normal text-center">Sign in</h1>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox mb-1 text-center">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+
+    </form>
+    <div class="w-75 text-center p-lg-3 sale">
+        <h3><strong> Free delivery for Slack members. Free and flexible returns.</strong> </h3>
+    </div>
+    <div class="text-center w-75 discount">
+        <h6 class="styles0">New styles added!</h6>
+        <p>
+            <h2 class="styles1"><strong>Up to 50% off for members.</strong></h2>
+        </p>
+        <h6 class="styles2">Online & in-shop*</h6>
+        <p class="styles3">
+            <a class="btn btn-outline-danger active mr-2" href="men.html" role="button">Men</a>
+            <a class="btn btn-outline-danger active mr-2" href="women.html" role="button">Women</a>
+            <a class="btn btn-outline-danger active mr-2" href="kids.html" role="button">Kids</a>
+            <a class="btn btn-outline-danger active mr-2" href="all.html" role="button">View all</a>
+        </p>
+        <p class="place">*Valid on selected items while stock lasts online and in our open stores.</p>
+    </div>
+
+    <div class="carousel-item active text-center fiftyoff">
+        <img class="img-fluid w-75" src="images/tamanna-rumee-hGLc8L-EcCM-unsplash.jpg" alt="sale image">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Buy three get 1 free.</h5>
+            <p>*Valid on selected items while stock lasts online or in-store</p>
+        </div>
+    </div>
+    <div class="text-center txt">
+        <h3><strong> Trending right now </strong></h3>
+    </div>
+
+    <div class="trends">
+        <div class="text-center">
+            <a href="men.html">
+                <img src="images/model0.jpg" alt="one" class="model0">
+
+            </a>
+            <figcaption>
+                <p class="descr">Men's Hoodie</p>
+            </figcaption>
+        </div>
+        <div class="text-center">
+            <a href="women.html">
+                <img src="images/model2.jpg" alt="one" class="model2">
+
+            </a>
+            <figcaption>
+                <p class="descr">Women's T-Shirt</p>
+            </figcaption>
+        </div>
+        <div class="text-center">
+            <a href="women.html">
+                <img src="images/res.jpg" alt="one" class="model3">
+            </a>
+            <figcaption>
+                <p class="descr">Women's Dress</p>
+            </figcaption>
+        </div>
+        <div class="text-center">
+            <a href="men.html">
+                <img src="images/model4.jpg" alt="one" class="model4">
+            </a>
+            <figcaption>
+                <p class="descr">Men's T-Shirt</p>
+            </figcaption>
+        </div>
+    </div>
+    <div class="mag-txt">
+        <h2 class="heading">MAGAZINE</h2>
+        <a class="read" href="magazine.html">
+            <h3 class="sub-heading">READ ST MAGAZINE </h3>
+        </a>
+        <div class="card-deck ml-3 mr-0 pb-lg-5">
+            <div class="card">
+                <img class="card-img-top" src="images/magazine.jpg" alt="Card image 1">
+                <div class="card-body text-center">
+                    <h5 class="card-title ">Inside ST</h5>
+                    <p class="card-text">Adventurous journey.</p> <br>
+                    <a class="link" href="magazine.html">Read the full story     <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/magazine2.jpg" alt="Card image 2">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Inside ST</h5>
+                    <p class="card-text">"Real power is wisdom" </p> <br>
+                    <a class="link" href="magazine.html">Read the full story     <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/magazine3.jpg" alt="Card image 3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Inside ST</h5>
+                    <p class="card-text">Shopping made easy.</p> <br>
+                    <a class="link" href="magazine.html">Read the full story   <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+    
+    <!-- Footer -->
+    <footer class="text-center p-lg-5 last">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">shop</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="all.html" class="text-dark">All products</a>
+                        </li>
+                        <li>
+                            <a class="pt-lg-5" href="men.html" class="text-dark">Men</a>
+                        </li>
+                        <li>
+                            <a href="women.html" class="text-dark">Women</a>
+                        </li>
+                        <li>
+                            <a href="kids.html" class="text-dark">Kids</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">help & info</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="pt-lg-5" href="account.html" class="text-dark">My Account</a>
+                        </li>
+                        <li>
+                            <a href="privacy.html" class="text-dark">Legal & Privacy</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="text-dark">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="text-dark">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">JOIN NOW</h5>
+
+                    <p>
+                        Become an ST member and get 10% off your next purchase!
+                    </p>
+
+                    <a class="link pt-lg-5" href="account.html"> <strong> Read more </strong> <i class="fas fa-arrow-right"></i></a>
+
+
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3">
+            © 2020 Copyright: Nahom Sileshi.
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="shoes">
+        Women
+    </button>
+    <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+        sagittis lacus vel augue laoreet rutrum faucibus.">
+        Men
+    </button> -->
+
+    <!-- <p>If you don't want to sign-in, kindly scroll down. </p> -->
+
+
+
+
+
+    <!-- PageNavigation -->
+    <!--    <nav aria-label="PageNav">
+        <ul class="pagination justify-content-center">
+            <li class="page-item ">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1 <span class="sr-only">(current)</span></a></li>
+            <li class="page-item ">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav> -->
+    <!-- popup -->
+    <!-- <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> -->
+    <!-- progress -->
+    <!-- <div class="progress">
+         <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div> -->
+    <!-- media heading -->
+    <!-- <div class="media">
+        <img class="mr-3" src="..." alt="Generic placeholder image">
+        <div class="media-body">
+        <h5 class="mt-0">Media heading</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </div>
+        </div> -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- important bootstrap components, badge, breadcrumb, button(toolbar, segmented buttons),
+cards(card-img-top, card-img-overlay, card-deck), carousel(slide), collapse,
+dropdown(split button dropdowns), forms(form-control-file, valid/invalid form fields),
+jumbotron, modal(Eg, leave site without saving? alert), pagination(page navigation),
+popovers(buttons), progress, scrollspy, media heading, images-->
