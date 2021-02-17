@@ -1,1 +1,1 @@
-This is an ongoing e-commerce site done by me and @mightydani
+This is an ongoing e-commerce site created by me and @mightydani
